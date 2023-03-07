@@ -1,0 +1,164 @@
+body {
+  background-color:  whitesmoke !important;
+}
+
+
+.metin{
+  background-color: #0398ff;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 0 5px  rgb(65, 225, 73),0 0 10px white; 
+
+}
+.metin:hover{
+  text-shadow: 0 0 10px  rgb(0, 255, 13),0 0 15px white; 
+
+}
+
+.ara{color: aliceblue;
+  color: #ffffff	;
+  font-size: 2.1rem;
+  text-shadow: 0 0 5px  rgb(65, 225, 73),0 0 5px white; 
+  border: 1px;
+  padding: 5px 5px 5px 10px;
+ }
+
+
+.sos{
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px  rgb(65, 225, 73),0 0 40px white; 
+}
+.sos:hover{transform: scale(1.20);
+  color: aqua;
+  box-shadow: 0  0 50px 5px black;
+}
+
+ 
+
+.cfoto {
+  background-color: #0398ff;
+  display: flex;
+  margin: 20px 50px 20px 50px;
+}
+.yor {
+  padding-top: 75px;
+  display: grid;
+  background-color: #0398ff;
+}
+
+.yor p {
+  font-size: 1.3rem;
+}
+
+.yor .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.yor i {
+  width: 50px;
+  height: 50px;
+  background-color: greenyellow;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.yor i {
+  font-size: 32px;
+  color: azure;
+  border-radius: 50%;
+  margin-left: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  
+}
+
+.yor a:hover {
+  text-decoration: none;
+}
+
+a span {
+  color: white;
+  margin: 0 0 3px 15px;
+  font-size: 1.3rem;
+}
+
+.txt {
+  color: white;
+  text-decoration: none;
+}
+.foto {
+  width: 200px;
+}
+
+/* cards*/
+.card-img-top {
+  width: 250px;
+  height: 200px;
+  
+}
+.card-deck {
+  padding: 5px 50px 5px 50px;
+  width: 200px;
+  
+}
+
+.card-deck {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.card-body {
+  border: 5px;
+  border-radius: 0px;
+  border: dotted #0398ff 3px;
+  background-color: white;
+  
+}
+
+@media (max-width: 567px) {
+  .cfoto img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .yor {
+    padding-top: 0 !important;
+  }
+
+  .yor p {
+    margin-left: 30px;
+  }
+}
+
+.card {
+  margin-bottom: 10px !important;
+  
+}
+.card:hover{
+  transform: rotateX(25deg);
+  opacity: 90%;
+  transition: 1s;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .card {
+    height: 455px !important;
+    margin-bottom: 10px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    height: 455px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.card:hover{
+  color: #0398ff;
+  box-shadow: 0 0 20px  #0398ff,0 0 20px #0398ff; 
+  
+  }
